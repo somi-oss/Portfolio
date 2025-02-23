@@ -1,0 +1,83 @@
+
+header{
+    padding: 10px;
+    background: gainsboro;
+}
+.navbar{
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 4px;
+
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar ul li{
+    list-style: none;
+    float:left;
+    margin:9px 8px;
+    padding: 3px 5px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+    margin: 7px;
+
+}
+.navbar ul li a:hover{
+    color: aqua;
+}
+body{
+    background: beige;
+}
+img{
+    
+    
+    
+    border-radius: 50%;
+    border: 25px solid rgb(30, 14, 14);
+    width: 300px;
+    height: 400px;
+    transform: translate(50px,50px);
+    position: relative;
+
+    
+}
+.info{
+    
+    font-size: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:10% ;
+    float:right;
+}
+
+
+table,tr,th{
+    margin-top: 60px;
+    margin-bottom: 10px;
+    align-items: center;
+    font-size: large;
+    width: 100%;
+    background: rgb(206, 200, 200);
+    text-shadow: ;
+
+}
+
+.Skills{
+    border:1px  solid black;
+    background: black;
+    text-align: left;
+    background: rgb(201, 201, 156);
+}
+footer{
+    border:1px solid gray;
+    background-color: antiquewhite;
+    text-align: center;
+}
+footer a:hover{
+    color: rgb(15, 178, 124);
+
+}
